@@ -54,3 +54,28 @@ def fun(num):
 fun(num)
 
 ##############################################
+
+num = int(input())
+temp = num
+rev = 0
+while (temp>0):
+    digit = temp%10
+    rev = digit + rev*10
+    temp = temp // 10
+a=0 
+b=0 
+if num == rev:
+    pass
+elif num > rev:
+    a = rev
+    b = num
+else:
+    a = num
+    b = rev
+while (a<b+1):
+    print(a, end=" ")
+    a = a+1
+    
+    
+########################################################
+
