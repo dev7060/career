@@ -79,3 +79,10 @@ while (a<b+1):
     
 ########################################################
 
+a = int(input("enter a "))
+c = 1
+while(c!=0):
+    b = int(input("enter b "))
+    c=a-b
+    print(c)
+    a = c
