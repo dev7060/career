@@ -29,3 +29,27 @@ while(i<=num):
     i = i+1
     
  ############################################
+num = int(input())
+def fun(num):
+    if(num<=3):
+        return
+    first = 0
+    second = 1
+    i=1
+    while(i<=num):
+        third = first + second
+        k=2
+        flag = 1
+        while(k<=(third//2)):
+            if(third%k==0):
+                flag = 0
+                break
+            k = k+1
+        if(flag == 1 and third!=1):    
+            print(third, end=" ")
+        first = second
+        second = third
+        i = i+1
+fun(num)
+
+##############################################
