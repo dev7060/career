@@ -10,6 +10,9 @@ sc.py
 ```python
 import Calci
 
+print(Calci.arnav)
+print(Calci.sharad)
+
 print(Calci.add(5, 5))
 print(Calci.multiply(5, 5))
 
