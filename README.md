@@ -42,7 +42,7 @@ def multiply(x, y):
 
 __ init __.py -> wont be compiled individually as it will search for the parent package (because of .)
 
-Too see the imported modules
+To see the imported modules
 
 sc.py
 ```python
