@@ -38,7 +38,7 @@ sharad.py
 def multiply(x, y):
 	return x*y
 ```
-why . requied? when compilation is done from the sc.py file, it needs the parents module name to set up and resolve the bindings. Only then added to sys.modules list.
+why . requied? when compilation is done from the sc.py file, it needs the parents module name to set up and resolve the bindings. Only properly resolved are added to sys.modules list.
 
 __ init __.py -> wont be compiled individually as it will search for the parent package (because of .)
 
