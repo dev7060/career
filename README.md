@@ -60,3 +60,8 @@ for i in sys.modules:
 	print(i)
 ```
 
+
+---
+https://docs.python.org/3/tutorial/inputoutput.html
+```In text files (those opened without a b in the mode string), only seeks relative to the beginning of the file are allowed (the exception being seeking to the very file end with seek(0, 2)) and the only valid offset values are those returned from the f.tell(), or zero. Any other offset value produces undefined behaviour.
+```
