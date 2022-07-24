@@ -26,17 +26,19 @@ def display(event):
     but = (event.widget)
     st = but.cget('text')
     
-#    print(st)`
+#    print(st)
     
     if(st=="Clr"):
         v1 = 0.0
         v2 = 0.0
         v3 = 0.0
+        op = 0
         val.set('')
         return
     
     if(st=="Back"):
-        val.set(val.get()[:len(ss)-1])
+        ss = val.get()
+        val.set(ss[:len(ss)-1])
         return
         
     if(val.get()=="Infinity"):
